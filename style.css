@@ -1,0 +1,128 @@
+body{
+    background-image: url(ludu_board.png);
+    background-size: cover;
+}
+#Heading1{
+    text-align: center;
+    color: wheat;
+    font-family:'Brush Script MT', cursive;
+    font-size: 50px;
+}
+.textcolor1{
+    color:dodgerblue;
+}
+.textcolor2{
+    color: green;
+}
+.textcolor3{
+    color:blue;
+}
+.textcolor4{
+    color:red;
+}
+.ludo_board{
+    height: 600px;
+    width: 600px;
+    margin:20px auto;
+    background-color: white;
+
+}
+/*3 div height and width*/
+.part1{
+    height: 200px;
+    width:100%;
+    overflow: hidden;
+}
+.Middle_part{
+    background-color: palegoldenrod;
+}
+.minibox1{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.pointbox1{
+    height:197px;
+    width:63.5px;
+    border: 1px solid black;
+    float: left;
+}
+.middle_pointbox1{
+    height:63.5px;
+    width:197px;
+    border:1px solid black;
+
+}
+.pointbox_room1{
+    height:33px;
+    width:100%;
+    border: 1px solid black;
+
+}
+.middle_pointbox_room1{
+    height:100%;
+    width:30.8px;
+    border:1px solid black;
+    float: right;
+}
+.triangle_right{
+    height:0;
+    width:0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left:100px solid red;
+    float: left;
+    
+}
+.triangle_left{
+    height:0px;
+    width:0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right:100px solid rgb(18, 223, 52);
+    overflow: hidden;   
+    float: left;
+}
+.triangle_top{
+    height:0px;
+    width:0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom:100px solid blue
+}
+.triangle_bottom{
+    height:0px;
+    width:0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top:100px solid dodgerblue;
+
+}
+.topcolor{
+    background-color: dodgerblue;
+}
+.bottomcolor{
+    background-color: blue;
+
+}
+.leftcolor{
+    background-color:rgb(18, 223, 52);
+}
+.rightcolor{
+
+    background-color: red;
+}
+.centerbox{
+    height:150px;
+    width:150px;
+    background-color: white;
+    margin: 25px auto;
+
+}
+.circle{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    float: left;
+    margin: 5px; 
+}
